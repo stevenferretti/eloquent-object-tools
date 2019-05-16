@@ -53,16 +53,6 @@ class EloquentObjectTools {
             return obj = obj[step];
         });
     }
-    
-    incrementDeep(obj = {}, path = '', amount = 1) {
-            const currentVal = this.getDeep(obj, path) || 0;
-            this.setDeep(obj, path, parseInt(currentVal) + amount);
-    }
-    
-    decrementDeep (obj = {}, path = '', amount = 1) {
-            const currentVal = this.getDeep(obj, path) || 0;
-            this.setDeep(obj, path, parseInt(currentVal) - amount);
-    }
 
 } 
 
