@@ -1,0 +1,22 @@
+{
+  "name": "eloquent-object-tools",
+  "version": "1.0.0",
+  "description": "Helpful Tooling For Javascript Objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenferretti/eloquent-object-tools.git"
+  },
+  "keywords": [
+    "objects"
+  ],
+  "author": "Steven Ferretti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenferretti/eloquent-object-tools/issues"
+  },
+  "homepage": "https://github.com/stevenferretti/eloquent-object-tools#readme"
+}

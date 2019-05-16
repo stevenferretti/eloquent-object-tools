@@ -63,10 +63,7 @@ class EloquentObjectTools {
             const currentVal = this.getDeep(obj, path) || 0;
             this.setDeep(obj, path, parseInt(currentVal) - amount);
     }
-    
-    merge(...objects) {
-        
-    }
-
 
 } 
+
+module.exports = EloquentObjectTools;
