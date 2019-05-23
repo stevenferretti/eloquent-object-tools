@@ -16,7 +16,7 @@ class EloquentObjectTools {
         for (const key in obj) {
             if (Object.prototype.hasOwnProperty.call(obj, key)) {
                 obj['isActiveClone'] = null;
-                temp[key] = clone(obj[key]);
+                temp[key] = this.clone(obj[key]);
                 delete obj['isActiveClone'];
             }
         }
